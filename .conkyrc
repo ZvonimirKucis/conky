@@ -23,7 +23,7 @@ conky.config = {
 
 	alignment = 'top_right',
 	gap_x = 10,
-	gap_y = 25,
+	gap_y = 45,
 	minimum_height = 1300,
 	minimum_width = 280,
 	maximum_width = 280,
@@ -147,8 +147,5 @@ ${color2}${diskiograph_read /dev/sda1 40,130} ${alignr}${diskiograph_write /dev/
 ${voffset 10}${color1}${font :size=14:bold}NETWORK ${hr 2}${font}
 ${voffset 5}${color3}Up: ${upspeedf wlo1} KiB/s${alignr}Down: ${downspeedf wlo1} KiB/s
 ${color2}${upspeedgraph wlo1 40,130 -l}$alignr${downspeedgraph wlo1 40, 130 -l}
-${voffset 5}${color1}IP ${stippled_hr 3 3}
-${voffset 5}${color1}Public:${alignr}${color3}${execi 20 wget http://ipinfo.io/ip -qO -}
-${voffset 5}${color1}Local:${alignr}${color3}${addr wlo1}
 #------------+
 ]]
