@@ -2,4 +2,4 @@ Conky file for my personal PC running on Ubuntu 20.04 with GNOME desktop environ
 
 #Screenshot
 
-![Example][img/example.png]
+![Example][/img/example.png]
